@@ -9,6 +9,10 @@
         <span class="icon-bar"></span>
       </button>
       <a class="navbar-brand" href="#">Projeto final</a>
+      <input type="checkbox" id="btn-dark" (click)="switchTheme()" hidden>
+      <label for="btn-dark">
+        <img src="./../assets/moon-outline.svg" alt="Dark Mode" width="30" height="30" id="img-dark">
+      </label>
     </div>
 
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -44,6 +48,6 @@
     </div>
   </div>
 </nav>
-<div class="container-fluid">
+<div class="container-fluid route">
   <router-outlet></router-outlet>
 </div>
