@@ -31,6 +31,7 @@ label {
 }
 
 .dark-mode .dropdown-menu a:hover {
+  background-color: white !important;
   color: black !important;
 }
 
